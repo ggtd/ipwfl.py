@@ -13,7 +13,6 @@ Build IP address list of web services like google, slack, github... Then generat
 
  
 
-Some notes: Services like slack.com are hosted on Amazon, that's why ASN covers other services, when using file 'services_list.txt'
 
 ## Why?
 - Imagine you want to block all traffic on your home network, but you want your Android TV to access google services.
@@ -56,6 +55,30 @@ https://en.wikipedia.org/wiki/Autonomous_system_(Internet)
 List of domain names. (github.com, facebook.com, ...) will try to resolve IP/ASN/IP-ranges, routes... for the domain.
 
 
+# Sample Output
+
+```
+#HOSTNAME/ASN/IPs for : github.com
+#ASN: AS36459
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.108.0/22
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.252.0/22
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.108.0/22
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.108.0/23
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.110.0/23
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.108.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.109.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.110.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 185.199.111.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.252.0/22
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.252.0/23
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.252.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.253.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.254.0/24
+iptables -YOUR -RULE -HERE -j ALLOW -d 192.30.255.0/24
+```
+
+
+Some notes: Services like slack.com are hosted on Amazon, that's why ASN covers other services, when using file 'services_list.txt'
 
 
 
