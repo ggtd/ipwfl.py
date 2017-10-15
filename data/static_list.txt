@@ -1,4 +1,4 @@
-# You can IPs or Ranges manualy.
+# You can add list of IPs or ip-anges manualy.
 # Add well-know list, Or use this to generate your own static list.
 # -----------------------------------------------------------------
 
