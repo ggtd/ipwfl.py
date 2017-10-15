@@ -121,8 +121,8 @@ def remove_file(FILE):
 remove_file(TMP_FILE)
 
 read_txt('./data/prefix.txt')
-# read_txt_static('./data/static_list.txt')
-# read_asn_file_and_lookup_routes('./data/asn_list.txt')
+read_txt_static('./data/static_list.txt')
+read_asn_file_and_lookup_routes('./data/asn_list.txt')
 read_service_by_domain('./data/services_list.txt')
 
 remove_file(TMP_FILE)
