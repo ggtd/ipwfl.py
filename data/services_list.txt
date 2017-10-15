@@ -1,0 +1,17 @@
+# Enter Domains names to resolve IP/ASN and populate the output IP list.
+
+# Example usage
+# -------------
+# youtube.com
+# github.com
+# -------------
+
+
+github.com
+youtube.com
+slack.com
+facebook.com
+
+
+
+

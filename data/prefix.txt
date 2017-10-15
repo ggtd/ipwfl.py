@@ -1,0 +1,11 @@
+#----------PREFIX--------------
+
+
+
+# Setting default filter policy
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+
+#----------PREFIX END----------

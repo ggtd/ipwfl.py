@@ -1,0 +1,11 @@
+# You can IPs or Ranges manualy.
+# Add well-know list, Or use this to generate your own static list.
+# -----------------------------------------------------------------
+
+
+# google public DNS services
+8.8.8.8
+8.8.4.4
+
+
+
