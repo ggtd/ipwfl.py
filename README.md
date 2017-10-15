@@ -25,7 +25,7 @@ Build IP address list of web services like google, slack, github... Then generat
 
 - 1. Git clone
 - 2. Edit or remove content from 'prefix.txt' (in the ./data directory)
-- 3. Edi the line 'OUTPUT_COMMAND_TEMPLATE' in 'ipwfl.py' to match your network FW rules (allow/drop...)
+- 3. Edit the line 'OUTPUT_COMMAND_TEMPLATE' in 'ipwfl.py' to match your network FW rules (allow/drop...)
 - 5. Then run:
 
 > 'python ./ipwfl.py'
