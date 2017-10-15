@@ -84,5 +84,6 @@ Some notes: Services like slack.com are hosted on Amazon, that's why ASN covers 
 
 
 ## TODO:
- - [ ] TODO: remove duplicates in output!
+ - [ ] make 'services_list.txt' more complex. Add: dropbox.com, iCloud, bing.com, Skype, Slack...
+ - [ ] remove duplicates in output!
  - [ ] normalize readme.md check typos, ...
